@@ -77,7 +77,7 @@ export const projectsData = [
     title: "Smart Automated Returns Assistant",
     description:
       "A Computer Vision based application to identify fake products during returns.",
-    tags: ["Java", "React", "PyToch", "Deep java Library"],
+    tags: ["Java", "Deep java Library", "PyToch", "OpenCV"],
     imageUrl: saraImg,
   },
   {
