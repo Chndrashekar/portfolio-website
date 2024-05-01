@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import saraImg from "@/public/sara_zebra.jpeg";
 import flightfare from "@/public/flightfare.png";
-import cricketImg from "@/public/cricket.jpeg";
+import portfolioImg from "@/public/portfolio_img.png";
 import oculusImg from "@/public/oculus.png";
 export const links = [
   {
@@ -88,11 +88,11 @@ export const projectsData = [
     imageUrl: flightfare,
   },
   {
-    title: "Cricket Mngt System",
+    title: "Portfolio",
     description:
-      "A DBMS application to manage a sports team built from scratch using Java and MySQL server.",
-    tags: ["Java", "MySQL"],
-    imageUrl: cricketImg,
+      "A responsive website created with modern UI design using Next.js",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    imageUrl: portfolioImg,
   },
 ] as const;
 
