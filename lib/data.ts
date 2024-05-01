@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: "Portfolio",
     description:
-      "A responsive website created with modern UI design using Next.js",
+      "A responsive website created with modern UI design using Next.js.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     imageUrl: portfolioImg,
   },
