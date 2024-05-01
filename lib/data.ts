@@ -113,6 +113,10 @@ export const skillsData = [
   "Tomcat",
   "DynaTrace",
   "React",
+  "Node",
   "GO",
   "gRPC",
+  "OpenCV",
+  "Oculus XR",
+  "Prompt Engineering",
 ] as const;
