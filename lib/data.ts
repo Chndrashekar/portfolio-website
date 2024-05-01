@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import saraImg from "@/public/sara_zebra.jpeg";
 import flightfare from "@/public/flightfare.png";
@@ -103,6 +102,7 @@ export const skillsData = [
   "JUnit",
   "Mockito",
   "Google Cloud Platform",
+  "AWS",
   "Google Pub/Sub",
   "BigTable",
   "BigQuery",
@@ -112,5 +112,7 @@ export const skillsData = [
   "Git",
   "Tomcat",
   "DynaTrace",
-  "TCP/IP",
+  "React",
+  "GO",
+  "gRPC",
 ] as const;
