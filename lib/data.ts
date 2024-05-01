@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import saraImg from "@/public/sara_zebra.jpeg";
+import flightfare from "@/public/flightfare.png";
+import cricketImg from "@/public/cricket.jpeg";
 
 export const links = [
   {
@@ -35,73 +35,82 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduate Research Assistant",
+    company: "University of South Florida",
+    location: "Tampa, FL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I worked as a Research Assistant under Dr. Alqasemi to assist him in his research in Virtual Reality.\
+      Taught a class of 40+ students on Python and Robotics.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Jan 2023 - Dec 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer",
+    company: "Zebra Technologies",
+    location: "Bengaluru, IN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a Backend developer to design REST endpoints to service Zebra's enterprise customers.\
+      Used Java and Spring Framework to develop the APIs",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jul 2019 - Jul 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer Intern",
+    company: "Zebra Technologies",
+    location: "Bengaluru, IN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Developed performance monitoring tool to extract battery metrics.\n\
+      Designed an engineering toolkit to analyse OTA package signature and exposed it to front-end",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2019 - Jun 2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Smart Automated Returns Assistant",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A Computer Vision based application to identify fake products during returns.",
+    tags: ["Java", "React", "Deep Learning", "Deep java Library"],
+    imageUrl: saraImg,
   },
   {
-    title: "rmtDev",
+    title: "Airline Fare Prediction",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Predict cheap flights based on historical and time series data.",
+    tags: ["React", "Java", "Deep Learning", "Deep Java Library"],
+    imageUrl: flightfare,
   },
   {
-    title: "Word Analytics",
+    title: "Cricket Mngt System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A DBMS application to manage a sports team . Used various optimising\
+       strategies to improve database performace.",
+    tags: ["Java", "MySQL"],
+    imageUrl: cricketImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Java",
   "Python",
-  "Django",
-  "Framer Motion",
+  "REST API",
+  "Maven",
+  "Spring Boot",
+  "Apache Kafka",
+  "Docker",
+  "Kubernetes",
+  "JUnit",
+  "Mockito",
+  "Google Cloud Platform",
+  "Google Pub/Sub",
+  "BigTable",
+  "BigQuery",
+  "PostgreSQL",
+  "NOSQL",
+  "Elastic Search",
+  "Git",
+  "Tomcat",
+  "DynaTrace",
+  "TCP/IP",
 ] as const;

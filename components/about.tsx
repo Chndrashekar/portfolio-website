@@ -19,30 +19,38 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        During my study at the University of South FLorida, I conducted research on 
+        utilizing {" "}
+        <span className="font-medium">Virtual Reality</span> to assess and train individuals with severe cognitive disabilities.
+        The immersive VR modules were designed with the principles of Gamification
+        to motivate and encourage the user, tailoring the system to users' 
+        special needs related to their disabilities.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        After my graduation in 2019, I decided to pursue my career as a {" "}
+        <span className="font-medium">Software Developer</span> at Zebra Technologies
+        working on enabling their enterprise customers with {" "}
+        <span className="font-medium">real-time and time-series</span> data
+        to help manage device specific metrics. My core stack is Java, Spring Boot, Docker
+        and Microservices architecture with over 4 years of experience. Familiar with similar technologies like
+        {" "}
+        <span className="font-medium">React, GO, gRPC</span> out of personal curiosity.
+        
+        </p>
+
+        <p>
+        <span className="italic">When I'm not coding</span>, you might find me reading a book or in the office gym.
+         I also enjoy{" "}
+        <span className="font-medium">astronomy and excited about space travel</span>. I am currently
+        reading{" "}
+        <span className="font-medium">The Book Thief by Markus Zusak
+</span>. People who know me, know me as a dedicated, amicable individual with great attention to detail.
+
+      </p>
+      <p> _ </p>
+      <p>
+      I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a Software Engineer in Full-stack or Backend development.
       </p>
     </motion.section>
   );
