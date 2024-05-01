@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import saraImg from "@/public/sara_zebra.jpeg";
 import flightfare from "@/public/flightfare.png";
 import cricketImg from "@/public/cricket.jpeg";
-
+import oculusImg from "@/public/oculus.png";
 export const links = [
   {
     name: "Home",
@@ -67,24 +67,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "VR4VR",
+    description:
+      "A Virtual Reality application for Meta Oculus to access and train people with Cognitive disabilities.",
+    tags: ["Unity", "CSharp"],
+    imageUrl: oculusImg,
+  },
+  {
     title: "Smart Automated Returns Assistant",
     description:
       "A Computer Vision based application to identify fake products during returns.",
-    tags: ["Java", "React", "Deep Learning", "Deep java Library"],
+    tags: ["Java", "React", "PyToch", "Deep java Library"],
     imageUrl: saraImg,
   },
   {
     title: "Airline Fare Prediction",
     description:
       "Predict cheap flights based on historical and time series data.",
-    tags: ["React", "Java", "Deep Learning", "Deep Java Library"],
+    tags: ["Python", "NumPy", "Pandas", "Scikit Learn"],
     imageUrl: flightfare,
   },
   {
     title: "Cricket Mngt System",
     description:
-      "A DBMS application to manage a sports team . Used various optimising\
-       strategies to improve database performace.",
+      "A DBMS application to manage a sports team built from scratch using Java and MySQL server.",
     tags: ["Java", "MySQL"],
     imageUrl: cricketImg,
   },
