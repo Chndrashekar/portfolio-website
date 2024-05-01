@@ -64,8 +64,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="italic">Hello,</span> I'm <span className="font-bold">Chandrashekar</span>, a {" "}
-        <span className="font-bold"> Software developer</span> on a mission to blend 
-        technology with passion. With {" "}
+        <span className="font-bold"> Software Developer</span> on a mission to blend 
+        technology with passion. Boasting {" "}
         <span className="font-bold">3.5 years</span> of experience in {" "}
         <span className="font-bold">Java and Spring Boot</span>,
         I excel in crafting <span className="italic">resilient distributed microservices solutions</span>.
