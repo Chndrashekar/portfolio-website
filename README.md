@@ -1,4 +1,6 @@
-## Key Components & Technologies
+## chandra.io
+
+# Key Components
 
 - Next.js App Router
 - Next.js Server Actions
@@ -9,11 +11,25 @@
 - Advanced Animations with Framer Motion
 - React.Email & Resend
 - Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+- Vercel deployment
 
-## Setup
+# Running Locally
+
+This application requires Node.js v13.4.8
+
+```bash
+git clone https://github.com/ByteGrad/portfolio-website.git
+npm i next@13.4.8
+npm install -i react-vertical-timeline-component
+npm i --save-dev @types/react-vertical-timeline-component
+npm i resend
+```
+
+# Setup
 
 1. Add RESEND_API_KEY environment variable in .env.local
 2. In the send-email.ts action file, change the "to" email to your own email
+
+# Bug
+
+Resolved a bug in [experience.tsx](https://github.com/ByteGrad/portfolio-website/issues/21#issuecomment-1880372021)
