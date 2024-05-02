@@ -32,5 +32,5 @@ npm i resend
 
 # Bug
 
-- Desc: Experience section isn't visible on the page.
-- Fix: Refer [experience.tsx](https://github.com/ByteGrad/portfolio-website/issues/21#issuecomment-1880372021).
+- Desc: experience section isn't visible on the page.
+- Fix: [experience.tsx](https://github.com/ByteGrad/portfolio-website/issues/21#issuecomment-1880372021)
