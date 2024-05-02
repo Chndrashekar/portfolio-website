@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      /*keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(10px)' }, // Adjust the jump height
+        },
+      },
+      animation: {
+        'bounce':'bounce 1s ease-in-out infinite'
+      },*/
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

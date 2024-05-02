@@ -31,5 +31,5 @@ npm i resend
 2. In the send-email.ts action file, change the "to" email to your own email
 
 # Bug
-
-Resolved a bug in [experience.tsx](https://github.com/ByteGrad/portfolio-website/issues/21#issuecomment-1880372021)
+Desc: Experience section isn't visible on the page.
+Fix: Refer [experience.tsx](https://github.com/ByteGrad/portfolio-website/issues/21#issuecomment-1880372021).
